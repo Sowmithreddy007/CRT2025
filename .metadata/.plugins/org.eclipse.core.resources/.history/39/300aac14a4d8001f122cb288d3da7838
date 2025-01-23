@@ -1,0 +1,15 @@
+
+public class Currency {
+	
+	anyCountryToIndianRupees(){
+		
+	}
+
+	public static void main(String[] args) {
+		
+		int usd=100,ukp=200,uaed=300;
+		float rupees = anyCountryToIndianRupees()
+
+	}
+
+}

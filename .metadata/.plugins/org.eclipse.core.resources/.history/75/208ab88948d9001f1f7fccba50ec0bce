@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class PrimeFunction {
+	
+	
+	static int primeInBetween(int a, int b) {
+		
+		for (int i=a;i<=b;i++) {
+			int c=0;
+		   for(int k=1;k<=i;k++) {
+			   if(i%k==0) {
+				   System.out.println(i);
+				   c++;
+			   }
+		   }
+		}
+		return 0;
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+		int x,y;
+		Scanner sc = new Scanner(System.in);
+		Scanner sc1 = new Scanner(System.in);
+		System.out.println("Enter the range");
+		x = sc.nextInt();
+		y = sc1.nextInt();
+		
+		
+		
+		
+		
+
+	}
+
+}

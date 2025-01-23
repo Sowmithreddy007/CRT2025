@@ -1,0 +1,16 @@
+
+public class FirstProgram {
+	
+	public static void main(String[] args) {
+		int a=100,b=250,c=350;
+		int big,small;
+	if(a>b) {
+		big=a;
+	}else if(b>c) {
+		small=c;
+	}
+		 System.out.println(big);
+		 System.out.println(small);
+	}
+
+}

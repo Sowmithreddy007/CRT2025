@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Currency {
+	
+	static float Conv(String a, int b) {
+		if()
+		return 0.0f;
+		
+	}
+	
+	public static void main(String[] args) {
+	
+		String x;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the string");
+		x=sc.next();
+		
+		System.out.println(x);
+	
+		
+	
+	}
+
+}

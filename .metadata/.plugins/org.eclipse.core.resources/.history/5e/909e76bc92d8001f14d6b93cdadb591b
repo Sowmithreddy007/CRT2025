@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class CurrencyConv {
+
+	static float Conv(String ch, int a) {
+		 
+		 if(ch=="US"){
+				 return a*83.46f;
+		 }
+		return a;
+		 
+	
+	}
+	public static void main(String[] args) {
+	   
+		int x;
+		Scanner sc = new Scanner(System.in);
+	    System.out.println("Enter the value");
+		x = sc.nextInt();
+		
+		Conv("US",x);
+		
+		
+	
+	}
+
+}

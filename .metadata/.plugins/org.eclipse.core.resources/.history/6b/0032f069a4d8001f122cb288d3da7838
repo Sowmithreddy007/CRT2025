@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Currency {
+	
+	public static void main(String[] args) {
+	
+		String x;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the string");
+		x=sc.next();
+		
+		System.out.println(x);
+	
+	
+	}
+
+}

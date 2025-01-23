@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Abcd {
+
+	public static void main(String[] args) {
+		char x;
+		Scanner sc = new Scanner(System.in);
+		x = (char) sc.nextInt();
+		
+		if((x>='A')&&(x<='Z')||(x>='a')&&(x<='z')) {
+			System.out.println("It's an alphabet");
+		}else if((x>=48)&&(x<=57)) {
+			System.out.println("It's a number");
+		}else System.out.println("It's a special character");
+
+	}
+
+}

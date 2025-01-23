@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Abcd {
+
+	public static void main(String[] args) {
+		char x;
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("Enter the character");
+		x = '@';
+		
+		if((x>=(char)(65))&&(x<=(char)(90))||(x>=(char)(97))&&(x<=(char)(122)))
+			System.out.println("It's an alphabet");
+		else if((x>=(char)(48))&&(x<=(char)(57))) System.out.println("It's a number");
+		 else System.out.println("It's a special character");
+
+	}
+
+}

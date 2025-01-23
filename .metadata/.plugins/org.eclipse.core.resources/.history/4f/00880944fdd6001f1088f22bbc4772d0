@@ -1,0 +1,11 @@
+
+public class FirstProgram {
+	
+	public static void main(String[] args) {
+		int n=100;
+		float a;
+		a=n/3.0f;
+		 System.out.println(a);
+	}
+
+}

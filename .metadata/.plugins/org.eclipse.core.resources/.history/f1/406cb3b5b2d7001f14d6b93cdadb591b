@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Exercise {
+
+	public static void main(String[] args) {
+		char ch;
+		char z;
+		do{
+			Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the char");
+		ch = sc.next().charAt(0);
+		 
+		if ((ch>='A')&&(ch<='Z')) {
+			System.out.println("The given char is an uppercase alphabet");
+		}else if((ch>='a')&&(ch<='z')) {
+			System.out.println("The given char is an lowercase alphabet");
+		}
+		
+		System.out.println("Want to repeat ? The type y else type n");
+		Scanner sc1 = new Scanner(System.in);
+		z = sc1.next().charAt(0);
+		}while( z =='y');
+		
+	
+		
+		
+
+	}
+
+}
